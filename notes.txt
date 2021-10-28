@@ -1,0 +1,81 @@
+inputs
+/examples
+var x
+var y
+var z = 0
+
+methods/precedures
+/examples
+function twist{
+    var rotate = turn;
+    rotate(integer);
+    if (integer , integer >= 1, rotate(clockwise);
+}
+
+algorithms
+/examples
+return output (pb&j);
+end task
+
+write a program that calculates emplyoyees gross pay
+
+...
+
+VARIABLES
+
+...
+
+grossPay
+hours
+payRate
+
+DISPLAY "Enter the number of hours an employee works"
+INPUT hours
+SET hours
+
+DISPLAY "Enter emplyoyees hourly rate of pay"
+INPUT payRate
+SET payRate
+
+SET grossPay = hours*payRate
+OUTPUT grossPay
+
+DISPLAY "The employee's gross pay is, ${grossPay}
+
+....
+....
+
+WRITE A PROGRAM THAT WILL CALCULATE A TOTAL BILL AT A RESTAURANT
+...
+VARIABLES
+
+subTotal
+tax
+tip
+total 
+
+DISPLAY "Enter the bill subtotal"
+INPUT subTotal
+SET subTotal
+SET tax = subTotal*.07
+SET subtotal = subTotal+tax
+DISPLAY "What is your generous tip?"
+INPUT tip
+SET tip
+SET total= subtotal+tip
+DISPLAY "your total is ${total}"
+OUTPUT total
+
+WRITE A PROGRAM THAT CONVERTS FAHRENHEIT TO CELSIUS
+
+VARIABLES
+
+fah
+cel 
+
+DISPLAY "Enter the tempture in fahrenheit"
+INPUT fah 
+SET fah
+SET cel=(fah-32)*5/9
+DISPLAY "The temperature is {cel} degrees celsius"
+OUTPUT cel

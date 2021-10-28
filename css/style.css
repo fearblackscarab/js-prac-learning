@@ -1,0 +1,21 @@
+.farhenheit-text{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.celsius-text{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.kelvin-text{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.num-eval{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
