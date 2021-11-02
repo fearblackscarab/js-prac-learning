@@ -1,21 +1,49 @@
+#farhenheit{
+    width: 100px;
+}
+
+#celsius{
+    width: 100px;
+    margin: 0 40px;
+}
+
+#kelvin{
+    width: 100px;
+}
+
+
 .farhenheit-text{
-    height: 100px;
+    height: 50px;
     width: 100px;
     border: 1px solid black;
 }
 
 .celsius-text{
-    height: 100px;
+    height: 50px;
     width: 100px;
+    margin: 0 50px;
     border: 1px solid black;
+    
 }
+
 .kelvin-text{
-    height: 100px;
+    height: 50px;
     width: 100px;
     border: 1px solid black;
 }
+
+#numInput{
+    height: 21px;
+    align-items: center;
+}
+
 .num-eval{
-    height: 100px;
+    height: 25px;
     width: 100px;
+    margin: 0;
     border: 1px solid black;
+}
+
+.container{
+    display: flex;
 }

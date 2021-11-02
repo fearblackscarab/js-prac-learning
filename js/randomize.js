@@ -60,6 +60,7 @@ var array=[
     "nolko",
     "nislo",
     "elerror."]];
+    
 var lorem=document.getElementById("lorem");
 function random(){
     let arrayRandom=Math.floor(Math.floor(Math.random()*array[0].length));

@@ -12,22 +12,29 @@
     <input type="number" id="farhenheit" placeholder="farhenheit" value=10>
     <input type="number" id="celsius" placeholder="celsius">
     <input type="number" id="kelvin" placeholder="kelvin">
-
-    <div class="farhenheit-text" id="farhenheitText">
-farhenheit output
-    </div>
-    
-    <div class="celsius-text" id="celsiusText">
-celsius output
-    </div>
-    
-    <div class="kelvin-text" id="kelvinText">
-kelvin output
+    <div class="container">
+        <div class="farhenheit-text" id="farhenheitText">
+            farhenheit output
+        </div>
+        
+        <div class="celsius-text" id="celsiusText">
+            celsius output
+        </div>
+        
+        <div class="kelvin-text" id="kelvinText">
+            kelvin output
+        </div>
     </div>
 
     <h2 class="even-or-odd">Even or odd</h2>
-    <input type="number" id="numInput" placeholder="number here">
-    <p class="num-eval" id="numEval"></p>
+    <div class="container">
+        <input type="number" id="numInput" placeholder="number here">
+        <p class="num-eval" id="numEval"></p>
+    </div>
+
+    <h2 class="lorem-test">Lorem Test</h2>
+    <input type="number" value=50 id="loremInput">
+    <p id="lorem"></p>
     <h2 class="instruct">how to evaluate</h2>
     <p>ALL INSTRUCTIONS CAN BE CALLED IN THE CONSOLE(case-sensitive)</p>
     <p>farhenheitToCelsius();</p>
@@ -40,6 +47,7 @@ kelvin output
     <p>displayCelsius();</p>
     <p>displayKelvin();</p>
     <p>EvenOrOdd();</p>
+    <p>random();</p>
     <script src="js/temp-converter.js"></script>
 </body>
 </html>

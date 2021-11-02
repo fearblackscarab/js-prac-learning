@@ -94,3 +94,88 @@ function EvenOrOdd(){
     }
     return;
 }
+/* lorem testing if i can display multiple items in the array into the p tag with an id of "lorem" using an input as the number for how many times random(); runs.
+
+*/
+var array=[
+    ["Lorem ",
+    "ipsum ", 
+    "dolor ",
+    "sit ", 
+    "amet ", 
+    "consectetur ", 
+    "adipisicing ",
+    "elit. ",
+    "Blanditiis ",
+    "amasdet ", 
+    "aperiam ",
+    "saepe ",
+    "provident ",
+    "ducimus ",
+    "debitis ",
+    "beatae ",
+    "quidem ",
+    "molestias ",
+    "nemo ",
+    "vel ",
+    "earum ",
+    "nostrum ",
+    "laudantium ",
+    "culpa ",
+    "quo ",
+    "recusandae ",
+    "explicabo ",
+    "non ",
+    "nisi ",
+    "error. "],
+// second group of array
+    [ "Lor ",
+    "ipsm ", 
+    "door ",
+    "sasit ", 
+    "ametrt ", 
+    "contetur ", 
+    "adipicing ",
+    "elitwer. ",
+    "Blitiis ",
+    "amelat ", 
+    "aperimer ",
+    "sasee ",
+    "proent ",
+    "ducgsmus ",
+    "debitis ",
+    "bgdfgtae ",
+    "quvfgem ",
+    "molfwtas ",
+    "nemsfdo ",
+    "veasfl ",
+    "esaetum ",
+    "nolskfum ",
+    "laudatamm ",
+    "culbro ",
+    "quolore ",
+    "recaedndae ",
+    "expsejcabo ",
+    "nolko ",
+    "nislo ",
+    "elerror. "]];
+    
+var lorem=document.getElementById("lorem");
+var loremInput=document.getElementById("loremInput");
+
+function random(){
+    for(var i=0;i<loremInput.value;i++){
+    let arrayRandom=Math.floor(Math.floor(Math.random()*array[0].length));
+    let randomItem=array[0||1][arrayRandom];
+    lorem.innerText+=" "+ randomItem;
+    }
+};
+// for (let i=0;i>=0; setTimeout(i++,500)){
+// random();
+// };
+//         lorem.innerHTML=randomItem;
+//         console.log(randomItem);
+//         return randomItem;
+
+random();
+// console.log(randomItem);
